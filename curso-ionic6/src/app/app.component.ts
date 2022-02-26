@@ -10,6 +10,8 @@ export class AppComponent {
     { title: 'Alert', url: 'alert', icon: 'alert' },
     { title: 'Botão', url: 'button', icon: 'dice' },
     { title: 'Card', url: 'card', icon: 'card' },
+    { title: 'Tags', url: 'tags', icon: 'dice' },
+    { title: 'JS', url: 'js', icon: 'dice' },
   ];
   constructor() {}
 }

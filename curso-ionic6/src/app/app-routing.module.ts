@@ -29,6 +29,14 @@ const routes: Routes = [
     path: 'alert',
     loadChildren: () => import('./pages/componentes/alert/alert.module').then( m => m.AlertPageModule)
   },
+  {
+    path: 'tags',
+    loadChildren: () => import('./pages/componentes/tags/tags.module').then( m => m.TagsPageModule)
+  },
+  {
+    path: 'js',
+    loadChildren: () => import('./pages/componentes/js/js.module').then( m => m.JsPageModule)
+  },
 ];
 
 @NgModule({

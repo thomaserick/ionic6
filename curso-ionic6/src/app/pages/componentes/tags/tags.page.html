@@ -1,0 +1,104 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Componentes - Tags</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Default -->
+  <ion-badge>99</ion-badge>
+
+  <!-- Colors -->
+  <ion-badge color="primary">11</ion-badge>
+  <ion-badge color="secondary">22</ion-badge>
+  <ion-badge color="tertiary">33</ion-badge>
+  <ion-badge color="success">44</ion-badge>
+  <ion-badge color="warning">55</ion-badge>
+  <ion-badge color="danger">66</ion-badge>
+  <ion-badge color="light">77</ion-badge>
+  <ion-badge color="medium">88</ion-badge>
+  <ion-badge color="dark">99</ion-badge>
+
+  <!-- Item with badge on left and right -->
+  <ion-item>
+    <ion-badge slot="start">11</ion-badge>
+    <ion-label>My Item</ion-label>
+    <ion-badge slot="end">22</ion-badge>
+  </ion-item>
+
+
+  <!-- Default Checkbox -->
+  <ion-checkbox></ion-checkbox>
+
+  <!-- Disabled Checkbox -->
+  <ion-checkbox disabled="true"></ion-checkbox>
+
+  <!-- Checked Checkbox -->
+  <ion-checkbox checked="true"></ion-checkbox>
+
+  <!-- Checkbox Colors -->
+  <ion-checkbox color="primary"></ion-checkbox>
+  <ion-checkbox color="secondary"></ion-checkbox>
+  <ion-checkbox color="danger"></ion-checkbox>
+  <ion-checkbox color="light"></ion-checkbox>
+  <ion-checkbox color="dark"></ion-checkbox>
+
+  <!-- Checkboxes in a List -->
+  <ion-list>
+    <ion-item *ngFor="let entry of form">
+      <ion-label>{{entry.val}}</ion-label>
+      <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+
+
+
+  <ion-chip>
+    <ion-label>Default</ion-label>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-label color="secondary">Secondary Label</ion-label>
+  </ion-chip>
+
+  <ion-chip color="secondary">
+    <ion-label color="dark">Secondary w/ Dark label</ion-label>
+  </ion-chip>
+
+  <ion-chip [disabled]="true">
+    <ion-label>Disabled Chip</ion-label>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-icon name="pin"></ion-icon>
+    <ion-label>Default</ion-label>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-icon name="heart" color="dark"></ion-icon>
+    <ion-label>Default</ion-label>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-label>Button Chip</ion-label>
+    <ion-icon name="close-circle"></ion-icon>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-icon name="pin" color="primary"></ion-icon>
+    <ion-label>Icon Chip</ion-label>
+    <ion-icon name="close"></ion-icon>
+  </ion-chip>
+
+  <ion-chip>
+    <ion-avatar>
+      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+    </ion-avatar>
+    <ion-label>Avatar Chip</ion-label>
+    <ion-icon name="close-circle"></ion-icon>
+  </ion-chip>
+
+</ion-content>
