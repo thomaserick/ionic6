@@ -37,6 +37,10 @@ const routes: Routes = [
     path: 'js',
     loadChildren: () => import('./pages/componentes/js/js.module').then( m => m.JsPageModule)
   },
+  {
+    path: 'camera',
+    loadChildren: () => import('./pages/native/camera/camera.module').then( m => m.CameraPageModule)
+  },
 ];
 
 @NgModule({

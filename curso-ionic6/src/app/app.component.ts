@@ -13,5 +13,13 @@ export class AppComponent {
     { title: 'Tags', url: 'tags', icon: 'dice' },
     { title: 'JS', url: 'js', icon: 'dice' },
   ];
+
+  public menuNativeCollection = [
+    {
+      title: 'Camera',
+      url: 'camera',
+      icon: 'camera',
+    },
+  ];
   constructor() {}
 }
