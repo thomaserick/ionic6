@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "rastreador",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
