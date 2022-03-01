@@ -37,6 +37,8 @@ Curso de Ionic6 com capacitor
 - ionic cap run android
     - Rodar o projeto dentro do android
 
+
+
 ### Plugins Native
 
 - Camera
@@ -48,3 +50,10 @@ Curso de Ionic6 com capacitor
   - npm install cordova-plugin-flashlight 
   - npm install @awesome-cordova-plugins/flashlight 
   - ionic cap sync
+
+  ### Gerando PWA
+
+  - ng add @angular/pwa
+    
+  - ionic build --prod
+    - 

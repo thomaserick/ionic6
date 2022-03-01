@@ -10,7 +10,7 @@ export class TarefaService {
   constructor() {}
 
   salvar(tarefa: any, callback: Function) {
-    tarefa.status = 'Pendente';
+    tarefa.done = false;
     let value = localStorage.getItem(this.Key);
     if (value) {
       this.tarefaCollection = JSON.parse(value);
