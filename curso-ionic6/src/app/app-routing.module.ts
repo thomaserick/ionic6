@@ -41,6 +41,10 @@ const routes: Routes = [
     path: 'camera',
     loadChildren: () => import('./pages/native/camera/camera.module').then( m => m.CameraPageModule)
   },
+  {
+    path: 'flash',
+    loadChildren: () => import('./pages/native/flash/flash.module').then( m => m.FlashPageModule)
+  },
 ];
 
 @NgModule({

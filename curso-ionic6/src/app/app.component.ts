@@ -20,6 +20,11 @@ export class AppComponent {
       url: 'camera',
       icon: 'camera',
     },
+    {
+      title: 'Flash',
+      url: 'flash',
+      icon: 'flash',
+    },
   ];
   constructor() {}
 }

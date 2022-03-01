@@ -2,7 +2,7 @@
 
 Curso de Ionic6 com capacitor
 
-### Comandas
+### Comandos
 
 - ionic start
 
@@ -42,3 +42,9 @@ Curso de Ionic6 com capacitor
 - Camera
   - npm install @capacitor/android
   - npx cap add android
+
+- Flash
+  - npm install @awesome-cordova-plugins/core --save
+  - npm install cordova-plugin-flashlight 
+  - npm install @awesome-cordova-plugins/flashlight 
+  - ionic cap sync
