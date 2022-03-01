@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Rastreador Encomendas
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-searchbar color="light" placeholder="Código de rastreio" (ionChange)="localizarObj($event)">
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item *ngFor="let evento of eventoCollection">
+    <p>{{evento.descricao}}</p>
+    <p>{{evento.detalhe}}</p>
+  </ion-item>
+
+</ion-content>
