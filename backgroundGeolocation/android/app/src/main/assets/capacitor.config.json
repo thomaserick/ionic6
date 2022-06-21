@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "backgroundGeolocation",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
