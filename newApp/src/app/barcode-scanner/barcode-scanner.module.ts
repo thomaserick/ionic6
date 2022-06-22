@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { FolderPageRoutingModule } from './folder-routing.module';
+import { BarcodeScannerPageRoutingModule } from './barcode-scanner-routing.module';
 
-import { FolderPage } from './folder.page';
+import { BarcodeScannerPage } from './barcode-scanner.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    BarcodeScannerPageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [BarcodeScannerPage]
 })
-export class FolderPageModule {}
+export class BarcodeScannerPageModule {}
